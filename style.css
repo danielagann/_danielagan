@@ -193,6 +193,7 @@ a { color: inherit; }
 .item .meta { display: block; margin-top: 6px; color: var(--accent); font-family: var(--mono); font-size: 12.5px; }
 .item p + .meta { margin-top: 0; }
 .item.no-icon { grid-template-columns: 1fr; }
+.wordmark { display: block; height: 30px; width: auto; max-width: 100%; margin: 14px 0 16px; }
 .more { padding-top: 22px; font-size: 16px; }
 .more a { color: var(--accent); text-underline-offset: 4px; }
 
@@ -296,3 +297,5 @@ dialog#lightbox img { display: block; max-width: 100%; max-height: 84vh; margin:
     html { scroll-behavior: auto; }
     *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; animation-delay: 0ms !important; transition-duration: .01ms !important; transition-delay: 0ms !important; }
 }
+
+
